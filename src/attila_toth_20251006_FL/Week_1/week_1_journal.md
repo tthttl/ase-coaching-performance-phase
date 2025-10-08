@@ -15,7 +15,10 @@
   _Ich muss ehrlich zugeben, dass copilot heute viel geholfen hat. In der Arbeit verwenden wir es um die Tests zu generieren, aber umgekehrt funktioniert es sogar besser. Nachdem ich die Tests geschrieben habe, hat es mir den Implementation generiert. padEnd() hat auch er vorgeschlagen..._
 
 - **Day 3:**  
-  _Write your reflection here._
+  _CSVParser Klasse war eine grosse Hilfe für IOSP. Mann kann sowohl die input als auch die Zwischenschritte und das Resultat auch speichern. Dh. die Funktionen brauchen keine Parameters. Was der Nachteil ist, dass so die Variables nicht immutable und die Funktionen nicht pure sind._
+  _Diese 2 Dinge sind in Function Programming sehr wichtig und würde auch die Testbarkeit verbessern. Heute hatte ich nur einen "end-to-end" test gehabt, was alles getestet aber keine separate test für die "private" Funktionen. Ich werde mal morgen probieren, ob ich das irgendwie kombinieren kann._
+  _Heute habe ich so ca. 10 Min gecheatet, weil ich unbedingt noch die separator line hinkriegen wollte und bisschen Mühe gehabt habe mit Map.values()..._
+  _Was ich noch überlege, ob ich irgendwie die looping auslagern kann, damit ich es nicht 2x machen muss, weil die eigentliche Logik nur respektive 1-2 Zeilen wäre._
 
 - **Day 4:**  
   _Write your reflection here._
