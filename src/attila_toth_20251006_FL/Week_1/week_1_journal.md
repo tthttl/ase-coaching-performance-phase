@@ -21,7 +21,11 @@
   _Was ich noch überlege, ob ich irgendwie die looping auslagern kann, damit ich es nicht 2x machen muss, weil die eigentliche Logik nur respektive 1-2 Zeilen wäre._
 
 - **Day 4:**  
-  _Write your reflection here._
+  _Heute habe ich wieder mal gecheatet, und einfach den code von gestern refactored, da ich sehen wollte wie die Idee mit den for loops auszulagern funktioniert._
+  _Ich habe das Gefühl besser optimieren kann man es nicht. Im prod code würde ich es wahrscheinlich nicht machen, das es überhaupt nicht wiederverwendbar ist, aber für den jetzigen use case passt. Was mir besonders nicht gefällt, dass ich 2 callbacks brauche._
+  _Wenn es nur eine callback wäre würde es wahrscheinlich mehr Sinn machen, dass zu abstrahieren. Aber in dem jetzigen Fall wo wir den code nur einmal duplizieren müssen ist es noch nicht so schlimm, mann soll immer eine Kompromiss finden zwischen DRY und Lesbarkeit._
+  _Ich habe noch alle strings in consts ausgelagert, damit es einfacher zu ändern ist._
+  _Morgen werde ich mal einen komplett anderen Ansatz probieren, eventuell ohne initialize(), das gefällt mir auch nicht so gut._
 
 - **Day 5:**  
   _Write your reflection here._
