@@ -28,4 +28,8 @@
   _Morgen werde ich mal einen komplett anderen Ansatz probieren, eventuell ohne initialize(), das gefällt mir auch nicht so gut._
 
 - **Day 5:**  
-  _Write your reflection here._
+  _Heute habe ich versucht die SOLID Prinzipien zu verwenden. TDD habe ich heute weggelassen, nur ein "endToEnd" test geschrieben und einfach auf die Struktur konzentriert._
+  _Um rauszufinden, welche Objekte ich brauche, habe ich vor dem coding session eine halbe Stunde brainstorming gemacht, mit chatgpt konsultiert und versucht CRC Karten zu erstellen. Dabai habe ich 2 Verantwortungen identifiziert: "parsing" und "formatting"._
+  _Ausserdem wollte ich unbedingt Dependency Inversion und Open Closed verwenden, damit der code erweiterbar/austauschbar wird. Normalerweise mache ich das nicht, aber heute war das mein Ziel. Jetzt könnte man theoretisch eine Liste mit andere Delimiter Charakter parsen und das Ergebnis unterschiedlich formatieren._
+  _Was die Logik anbelangt wäre die Testbarkeit besser, da ich die parser und formatter Klassen separat testen könnte. Ich habe es jetzt nicht gemacht, da ich keine Zeit mehr hatte._
+  _Ich bin mit der separaten "addSeparatorLine" Funktion nicht ganz zufrieden, es sollte möglich sein, in die "addPadding" Funktion zu integrieren, aber so ist es mindestens SRP konform._
