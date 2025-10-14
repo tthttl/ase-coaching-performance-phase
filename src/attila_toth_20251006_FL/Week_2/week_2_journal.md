@@ -10,7 +10,10 @@
   _Tomorrow I will try to continue this pattern and try to implement the first real tests._
 
 - **Day 2:**  
-  _Write your reflection here._
+  _I had to interpret the rules again, cause the question marks on the initial description page were confusing. I decided to use these rules: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life_
+  _I am quite happy with the result, I managed to implement all the rules and the tests are passing._
+  _calculateNextCellState could be refactored but with the consts and types it is already quite readable and the ifs are needed.
+  _Copilot was more of an annoyance today than a helpful tool, it could only autofill the Directions const._
 
 - **Day 3:**  
   _Write your reflection here._
