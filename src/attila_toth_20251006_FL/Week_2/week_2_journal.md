@@ -22,7 +22,8 @@
   _The only cheating I've done is that I copied the "end to end" tests from yesterday, because if I have to write them again, then I cannot do anything else.._
 
 - **Day 4:**  
-  _Write your reflection here._
+  _Today I wanted to tackle the issue with the remaining two places, where the logic complexer was than one line. Before I began I looked at the implementation from yesterday and realized I can reduce the calculateNextState() in the Cell if I have two different types of cells. So I decided to introduce an interface and polymorphism._
+  _The other place was within the for loop, which now became even longer, but for that I came up with a different helper and the nextGeneration variable. Although I tried to memorize what I wanted to achieve I almost ran out of time, cause I kept messing up the calculateLivingNeighbors() function with reduce.._
 
 - **Day 5:**  
   _Write your reflection here._
