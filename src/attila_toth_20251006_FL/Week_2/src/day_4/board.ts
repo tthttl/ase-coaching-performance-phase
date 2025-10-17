@@ -23,7 +23,7 @@ export class Board {
                 this.#nextGeneration[row][col] = this.calculateNextStateForCell(row, col);
             }
         }
-        this.#currentGeneration = this.#nextGeneration;
+        this.#currentGeneration = [...this.#nextGeneration];
     }
 
     private calculateNextStateForCell(row: number, col: number): CellState {

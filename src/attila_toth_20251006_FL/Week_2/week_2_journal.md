@@ -26,4 +26,8 @@
   _The other place was within the for loop, which now became even longer, but for that I came up with a different helper and the nextGeneration variable. Although I tried to memorize what I wanted to achieve I almost ran out of time, cause I kept messing up the calculateLivingNeighbors() function with reduce.._
 
 - **Day 5:**  
-  _Write your reflection here._
+  _As I was satisfied with yesterday's solution, instead of trying to come up with a different solution, of which I already knew would be inferior, just to sake of trying, I decided to work on the tests._
+  _Moreover because I had the feeling that they might not be "RIGHT", cause they were just written by me, as I understood the rules and I did not verify them against official sources._
+  _Thankfully the game is very well researched and people spent significant amount of time of writing scenarios and simulations for the game, so after a few searches I had a couple of patterns that I felt I could implement as test cases._
+  _First I think my solution is very versatile, because it can handle any size of board out of the box and the user interface is also easy enough to simulate and check multiple generations and complex scenarios._
+  _Second my hunch was correct, I had a productive error in the code, which only revealed itself after implementing the "Blinker" pattern, which involved multiple ticks._
