@@ -17,7 +17,7 @@
 
 - **Day 3:**  
   _The solution from yesterday was already ok, but I have the feeling I am done today :). I am happy with this result and honestly I don't think I can make it better._
-  _I wanted to introduce new objects. Board makes sense, so GameOfLife can function as the application layer, Cell calculates it's next state._
+  _I wanted to introduce new objects. Game makes sense, so GameOfLife can function as the application layer, Cell calculates it's next state._
   _I think I managed to improve on the calculate methods and the naming is more intention revealing. Everything is SRP and IOSP compliant._
   _The only cheating I've done is that I copied the "end to end" tests from yesterday, because if I have to write them again, then I cannot do anything else.._
 
