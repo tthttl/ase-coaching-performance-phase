@@ -16,7 +16,11 @@
   _I have to confess I copied over the defaultSquares constant, otherwise I had no time to improve much compared to yesterday._
 
 - **Day 3:**  
-  _Write your reflection here._
+  _Today I also started the day by looking at the solution from yesterday and I identified some potential improvements. Maybe this is not the purpose of this training but I cannot help it, I want to reach feature completion, so I keep improving on my day 1 solution until I manage to finish the implementation, instead of trying out new approaches._
+  _Now that I have a working solution which covers the whole functionality I might try a different approach tomorrow because it would be more of a challenge than improving the quality of the current approach, which is already ok enough._
+  _In order to reach feature completion I had to abandon a few unit tests and focus on implementing the overflowing rolls._
+  _I think my solution would be able to handle different board sizes, as I no longer check for 100 but for the length of the input squares. Unfortunately I had no time to write tests for this._
+  _Responsibilities are clearly separated now between Snakes and Players. The play method could still be refactored though.._
 
 - **Day 4:**  
   _Write your reflection here._
