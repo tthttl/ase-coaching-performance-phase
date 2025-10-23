@@ -28,4 +28,8 @@
   _Since I lost a ton of time implementing the defaultPortals array, I only had time for a rudimentary game implementation, so I can test that the portals work as expected. There are no players/game over/win check or anything this time._
 
 - **Day 5:**  
-  _Write your reflection here._
+  _Today I made 2 implementations because we have devcon conference the whole day tomorrow. So today is still day 4, just my afternoon session :)_
+  _Sämi called me before, because of an issue he had with his implementation and while we tried to debug his very similar solution, I noticed something cool in his code, which gave me an idea for my afternoon session :)._
+  _He used the % to wrap back to the first player when toggling players, which is a neat trick I had not thought of and this also allows to handle more than two players. Since the game is already able to handle different board sizes I thought I could steal his solution to allow it to handle a flexible amount of players as well._
+  _Since my solution was already quite OPEN, as all the logic was in the Player class I only needed to add this tweak and tadaam :)._
+  _I implemented more test cases to make sure still everything works as expected._
