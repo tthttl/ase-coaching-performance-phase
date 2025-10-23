@@ -23,7 +23,9 @@
   _Responsibilities are clearly separated now between Snakes and Players. The play method could still be refactored though.._
 
 - **Day 4:**  
-  _Write your reflection here._
+  _Today I started the session with researching potential alternatives to my initial approach, which is apparently called: "dense portal array". Since it is considered one of the easiest ways to implement the sliding/climbing logic, I decided not to change it but instead write a converter which parses a different kind of input and creates the portal array for my existing implementation to use._
+  _After creating the parser I realized it is not much of a help as it is still completely depending on the input type. Now I selected an array of tuples but it could be really anything. What I should have done is to supply the input in the constructor to the Parser/BoardCreator so that it is not a part of the parse method signature. It would allow for different parsers to be used._
+  _Since I lost a ton of time implementing the defaultPortals array, I only had time for a rudimentary game implementation, so I can test that the portals work as expected. There are no players/game over/win check or anything this time._
 
 - **Day 5:**  
   _Write your reflection here._
